@@ -14,6 +14,10 @@ of noise and artifacts which corrupt the magnetization domains. In this project,
 supervised and semi-supervised deep learning (DL) approaches to segment and identify these 3D
 magnetization domains for 2D slices of the object.
 
+<p align="center">
+  <img src="./magnetization_domain_sweep.gif" alt="Material Magnetization Domain Sweep" title="Magnetization Domain Sweep" width="500"/>
+</p>
+
 ## Results
 A total of 2448 2D magnetization domain image slices were utilized for the AugSeg model. This model
 was trained over 30 epochs with 2298 training samples, 128 labelled samples, and 22 validation
@@ -21,7 +25,9 @@ samples. A batch size of 15 was used and training was split across 2 GPUs using 
 The code infrastructure was modified from an existing code base to support this dataset. A pretrained
 resnet101 model was used for the model’s encoder, and a deeplabv3 decoder was used.
 
-<img width="555" alt="image" src="https://github.com/user-attachments/assets/5e9e0b47-92a1-42f7-8f58-23db666ea0aa">
+<p align="center">
+  <img width="800" alt="image" src="https://github.com/user-attachments/assets/5e9e0b47-92a1-42f7-8f58-23db666ea0aa">
+</p>
 
 ## Contributions
 - Implemented and adapted ML models (PyTorch, TensorFlow) for accurate segmentation of magnetization domains, significantly reducing noise and artifacts.
