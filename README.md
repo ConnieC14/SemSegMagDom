@@ -1,3 +1,3 @@
 # SemSegMagDom
 
-Datasets and checkpoints can be found at: 
+Semantic Segmentation Magnetization Domain Model Research
